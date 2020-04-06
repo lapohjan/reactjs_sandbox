@@ -1,26 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Form from './Form/Form.js';
+import View from './View/View.js';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  state = {
+    firstname: '',
+    lastname: '',
+    phonenumber: '',
+    message: ''
+  }
+
+  handleInputChange = (event) => {
+    this.setState({
+      [event.target.name]: event.target.value
+      //check what is the name of the target=input, change the value of that key-pair in the state
+    })
+  }
+
+  render() {
+    return (
+      <div className="grid-wrap">
+        <div className="form-block">
+          <h1>Fill out according to the receipt:</h1>
+          <Form changeValue={this.handleInputChange} />
+        </div>
+        <div className="report-sheet">
+          <View firstname={this.state.firstname} lastname={this.state.lastname} phonenumber={this.state.phonenumber} message={this.state.message} />
+        </div>
+      </div>
+    )
+  }
 }
+
+
 
 export default App;
