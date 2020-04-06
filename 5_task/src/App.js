@@ -53,10 +53,26 @@ class App extends Component {
      <h1>Speedtest</h1>
      <p>Your score: {this.state.score}</p>
      <main>
-       <Circle click={this.clickHandler.bind(this, 1)} />
-       <Circle click={this.clickHandler.bind(this, 2)} />
-       <Circle click={this.clickHandler.bind(this, 3)} />
-       <Circle click={this.clickHandler.bind(this, 4)} />
+       <Circle
+       active={this.state.current === 1}
+       mydefaultcolor="yellow"
+       click={this.clickHandler.bind(this, 1)} 
+       />
+       <Circle 
+      active={this.state.current === 2}
+       mydefaultcolor="green"
+       click={this.clickHandler.bind(this, 2)} 
+       />
+       <Circle
+        active={this.state.current === 3}
+       mydefaultcolor="red"
+       click={this.clickHandler.bind(this, 3)} 
+       />
+       <Circle
+        active={this.state.current === 4}
+       mydefaultcolor="blue"
+       click={this.clickHandler.bind(this, 4)} 
+       />
      </main>
      <div>
     <button onClick={this.startHandler}>Start test</button>
