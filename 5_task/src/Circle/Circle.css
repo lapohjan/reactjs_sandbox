@@ -10,5 +10,16 @@
 
 .circle.active {
     box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 1);
-    background: black;
+    background: url(./hamsteri.jpg) no-repeat center center/cover;
 }
+
+
+
+
+
+
+/* background: url("https://source.unsplash.com/adK3Vu70DEQ") no-repeat center center/cover; */
+
+
+/*Margit's cat picture: */
+/* url("https://c7.uihere.com/files/790/117/70/simon-s-cat-beyond-the-fence-kitten-animated-film-united-kingdom-cat.jpg") */
