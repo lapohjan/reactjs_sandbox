@@ -10,7 +10,7 @@
 
 
 .circle:hover {
-    cursor: url(./brush.png), auto;
+    cursor: url(./heart.png), auto;
 }
 
 .circle.active {
