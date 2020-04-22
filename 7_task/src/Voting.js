@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Content from './Content';
 import Button from './Button';
 import './Voting.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHeart, faHeartBroken, faRedoAlt } from '@fortawesome/free-solid-svg-icons'
 
 
 const Voting = () => {
@@ -19,9 +21,11 @@ const Voting = () => {
     return (
         <div>
             <div>
-                <Button handleClick={addLove} text="LOVE"/>
-                <Button handleClick={addHate} text="HATE"/>
-                <Button handleClick={resetVotes} text="RESET" />
+                <Button handleClick={addLove} text="LOVE  "><FontAwesomeIcon icon={faHeart} /></Button>
+                
+                <Button handleClick={addHate} text="HATE  "><FontAwesomeIcon icon={faHeartBroken} /></Button>
+                
+                <Button handleClick={resetVotes} text="RESET  "><FontAwesomeIcon icon={faRedoAlt} /></Button>
             </div>
             <div>
                 <Content love={love} hate={hate} />
