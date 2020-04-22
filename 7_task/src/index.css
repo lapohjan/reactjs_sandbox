@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-size: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: block;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+main {
+  display: inline-flex;
+  align-items: center;
+}
+
+
+button {
+  background-color: rgb(179, 9, 32); /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+html {
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background: -webkit-linear-gradient( to left top, yellow, red);
+  background: -moz-linear-gradient( to left top, yellow, red);
+  background: -ms-linear-gradient( to left top,  yellow, red);
+  background: -o-linear-gradient( to left top,  yellow, red);
+  background: linear-gradient( to left top,  yellow, red);
+}
+
+#root {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
