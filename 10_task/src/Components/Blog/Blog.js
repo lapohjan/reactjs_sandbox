@@ -3,6 +3,8 @@ import axios from 'axios';
 import PostCard from "../PostCard/PostCard";
 import { Switch, Route, useRouteMatch } from "react-router-dom";
 import FullPost from "../FullPost/FullPost";
+import './Blog.css';
+
 const Blog = () => {
   const [post, setPost] = useState([]);
   let match = useRouteMatch();
@@ -42,8 +44,10 @@ const removeHandler = (id) => {
         </Route>
         <Route path={match.path}>
           <div>
-            <h1>Blog</h1>
+            <h1>Message Board</h1>
+            <div className="posts-align">
             {PostList}
+            </div>
           </div>
         </Route>
       </Switch>

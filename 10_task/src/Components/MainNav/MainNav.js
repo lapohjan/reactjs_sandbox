@@ -1,19 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
+//import "./MainNav.css";
 
-const Nav = () => {
+const MainNav = () => {
   return (
     <div>
-      <nav>
+       <nav className='ml-auto'>
         <ul>
           <li>
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/blog">Blog</Link>
+            <Link to="/blog" >Message Board</Link>
           </li>
           <li>
-            <Link to="/newpost">New Post</Link>
+            <Link to="/newpost">New Message</Link>
           </li>
         </ul>
       </nav>
@@ -21,4 +22,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default MainNav;

@@ -21,7 +21,7 @@ const NewPost = () => {
   }
   return (
     <>
-      <h1>Add new post</h1>
+      <h1>Pin a new Message on the Board!</h1>
       <form className="newPost">
         <div>
           <label htmlFor="title">Title</label>
