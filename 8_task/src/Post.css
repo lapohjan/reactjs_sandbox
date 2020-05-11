@@ -1,0 +1,24 @@
+.posts {
+    display: grid;
+    align-items: flex-start;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    margin: 1rem;
+    
+}
+
+.post {
+    background: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #787878;
+    border: 10px solid #f4f4f4;
+}
+
+
+.post img {
+    max-height: 700px;
+    min-height: 100px;
+    object-fit: center, contain;
+    width: 100%;
+    border-radius: 1%;
+}
