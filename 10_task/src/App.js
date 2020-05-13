@@ -6,6 +6,8 @@ import Home from "./Components/Home/Home";
 import Blog from "./Components/Blog/Blog";
 import NewPost from "./Components/NewPost/NewPost";
 
+import 'bootstrap/dist/css/bootstrap.css';
+
 const App = () => {
   return (
     <Router>
