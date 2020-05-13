@@ -1,11 +1,13 @@
 .picture {
     height: 150vh;
     width: auto;
-    background-image: url("https://source.unsplash.com/featured/?note");
+    background-image: url("https://source.unsplash.com/kvIAk3J_A1c");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+
+/* background-image: url("https://source.unsplash.com/featured/?note"); */
 
 .welcome-h1 {
     color: rgb(226, 222, 222);

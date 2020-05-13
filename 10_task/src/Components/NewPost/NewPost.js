@@ -21,7 +21,7 @@ const NewPost = () => {
   }
   return (
     <div className="new_message">
-      <h1>Pin a new Message on the Board!</h1>
+      <h1>Post a new Message on the Board!</h1>
       <form className="newPost">
         <div>
           <label htmlFor="title">Title</label>
@@ -37,7 +37,7 @@ const NewPost = () => {
           <label htmlFor="img">Image URL</label>
           <input type="text" name="img" id="img"
             onChange={changeValueHandler}   placeholder="URL"/>
-            <p className="random">Random happy picture: <br /> https://source.unsplash.com/featured/?happy</p>
+            <p className="random">Random puppy picture: <br /> https://source.unsplash.com/featured/?puppy</p>
         </div>
         <button className="add_new" type="submit" onClick={addPostHandler}>Post your message</button>
       </form>
