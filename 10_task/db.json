@@ -1,19 +1,6 @@
 {
   "posts": [
     {
-      "id": 3,
-      "title": "Post3",
-      "author": "Laura",
-      "desc": "Quisque ut libero porttitor, aliquam felis ac, molestie arcu. Pellentesque sit amet tortor efficitur tellus pharetra ultrices. Quisque quis pretium massa. Duis consectetur porttitor pellentesque.",
-      "img": "https://source.unsplash.com/1600x900/?nature"
-    },
-    {
-      "title": "Post 1",
-      "desc": "Re-making a post 1! Lorem ipsum dolor sit amet consectetur adipiscing elit luctus dictumst ac, montes a proin quam non pharetra eleifend vulputate blandit feugiat, cursus fusce odio velit litora suspendisse class ullamcorper accumsan. Himenaeos curabitur suspendisse lacinia faucibus ultrices pretium arcu potenti venenatis accumsan est, sagittis massa risus ac platea tellus porttitor nisl turpis nullam sollicitudin egestas, nulla donec pellentesque ultricies semper cursus mi at curae gravida. Nunc lectus ultricies duis magnis nisl litora vitae pretium, varius dictumst suspendisse fringilla tempor facilisis faucibus viverra luctus, blandit nulla lacus nisi tempus quam parturient.",
-      "img": "https://source.unsplash.com/ngqyo2AYYnE",
-      "id": 6
-    },
-    {
       "title": "testing again",
       "desc": "aetasdfasfda",
       "img": "https://source.unsplash.com/mcC-K8wJ5rU",
@@ -66,6 +53,18 @@
       "desc": "Vivamus placerat lacus vel vehicula scelerisque, dui enim adipiscing lacus sit amet sagittis, libero enim vitae mi. In neque magna posuere, euismod ac tincidunt tempor est. Ut suscipit nisi eu purus. Proin ut pede mauris eget ipsum. Integer vel quam nunc commodo consequat. Integer ac eros eu tellus dignissim viverra. Maecenas erat aliquam erat volutpat. ",
       "img": "https://source.unsplash.com/D1wiHCovGJ0",
       "id": 19
+    },
+    {
+      "title": "I like coffee",
+      "desc": "I love coffee, I love tea\nI love the java jive and it loves me\nCoffee and tea and the jiving and me\nA cup, a cup, a cup, a cup, a cup!\nI love java, sweet and hot\nWhoops! Mr. Moto, I'm a coffee pot\nShoot me the pot and I'll pour me a shot\nA cup, a cup, a cup, a cup, a cup!\nOh, slip me a slug from the wonderful mug\nAnd I cut a rug till I'm snug in a jug\nA slice of onion and a raw one, draw one.",
+      "img": "https://source.unsplash.com/featured/?coffee",
+      "id": 20
+    },
+    {
+      "title": "Happy!",
+      "desc": "It might seem crazy what I'm 'bout to say\nSunshine she's here, you can take a break\nI'm a hot air balloon that could go to space\nWith the air, like I don't care baby by the way\nHuh, because I'm happy\nClap along if you feel like a room without a roof\nBecause I'm happy\nClap along if you feel like happiness is the truth\nBecause I'm happy\nClap along if you know what happiness is to you\nBecause I'm happy\nClap along if you feel like that's what you wanna do",
+      "img": "https://source.unsplash.com/featured/?happy",
+      "id": 21
     }
   ]
 }

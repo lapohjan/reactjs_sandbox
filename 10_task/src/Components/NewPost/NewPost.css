@@ -14,3 +14,69 @@
   padding: 0.5rem;
   font-size: 0.8rem;
 }
+
+h1 {
+  color: whitesmoke;
+}
+
+.new_message {
+  background-color: rgba(70, 5, 114, 0.842);
+}
+
+html {
+  background-color: rgba(70, 5, 114, 0.842);
+  color: whitesmoke;
+}
+
+
+button {
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgba(70, 5, 114, 0.842);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px #999;
+}
+
+button:hover {
+  background-color: rgba(132, 13, 211, 0.842);
+}
+
+button:active {
+  background-color: rgba(173, 85, 231, 0.842);
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
+.add_new {
+  border-radius: 15px;
+  font-size: 14px;
+  margin-left: 215px;
+  margin-top: 20px;
+}
+
+input, textarea {
+  border-radius: 5px;
+}
+
+label {
+  color: whitesmoke;
+  margin-right: -70px;
+}
+
+.random {
+  color: whitesmoke;
+  margin-left: 130px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.newPost {
+  margin-top: 40px;
+}

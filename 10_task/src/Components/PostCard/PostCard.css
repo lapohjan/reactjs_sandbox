@@ -37,6 +37,11 @@ button:active {
   transform: translateY(4px);
 }
 
+.read_more {
+  border-radius: 15px;
+  font-size: 14px;
+}
+
 
 .remove {
   display: inline-block;

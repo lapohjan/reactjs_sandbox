@@ -43,7 +43,7 @@ const removeHandler = (id) => {
           <FullPost />
         </Route>
         <Route path={match.path}>
-          <div>
+          <div className="message_board">
             <h1>Message Board</h1>
             <div className="posts-align">
             {PostList}

@@ -6,7 +6,7 @@ const Home = () => {
     <div>
       <div className="picture">
         <div className="color-box">
-          <h1 className="welcome-h1">Welcome to<br /> the Message board!</h1>
+          <h1 className="welcome-h1">Welcome to<br /> the MessagePad!</h1>
           <h2 className="welcome-h2">Check out Messages<br /> from other people<br /> or write one yourself.</h2>
         </div>
      </div>

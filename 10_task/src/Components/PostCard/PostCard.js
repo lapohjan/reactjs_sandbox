@@ -7,11 +7,11 @@ const PostCard = ({ title, img, desc, link, remove }) => {
     <div className="postCard">
       <h2>{title}</h2>
       <p>{desc}</p>
-      <Link to={link}><button>Read more...</button></Link>
+      <Link to={link}><button className="read_more">Read more...</button></Link>
       <div><br/></div>
       <img src={img} alt={title} />
       <div><br/></div>
-      <button class="remove" onClick={remove}>Remove this post</button>
+      <button className="remove" onClick={remove}>Remove this post</button>
     </div>
   );
 };

@@ -20,27 +20,28 @@ const NewPost = () => {
     })
   }
   return (
-    <>
+    <div className="new_message">
       <h1>Pin a new Message on the Board!</h1>
       <form className="newPost">
         <div>
           <label htmlFor="title">Title</label>
           <input type="text" name="title" id="title"
-            onChange={changeValueHandler} />
+            onChange={changeValueHandler} placeholder="Title"/>
         </div>
         <div>
-          <label htmlFor="desc">Description</label>
+          <label htmlFor="desc">Message</label>
           <textarea type="text" name="desc" id="desc"
-            onChange={changeValueHandler} />
+            onChange={changeValueHandler} placeholder="Message" />
         </div>
         <div>
           <label htmlFor="img">Image URL</label>
           <input type="text" name="img" id="img"
-            onChange={changeValueHandler} />
+            onChange={changeValueHandler}   placeholder="URL"/>
+            <p className="random">Random happy picture: <br /> https://source.unsplash.com/featured/?happy</p>
         </div>
-        <button type="submit" onClick={addPostHandler}>Add new post</button>
+        <button className="add_new" type="submit" onClick={addPostHandler}>Post your message</button>
       </form>
-    </>
+    </div>
   );
 };
 export default NewPost;
