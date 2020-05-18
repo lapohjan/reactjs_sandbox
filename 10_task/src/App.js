@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/react_demo">
       <Header />
      
       <Switch>
