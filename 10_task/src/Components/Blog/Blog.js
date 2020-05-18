@@ -1,11 +1,17 @@
 import React, { useState, useEffect } from "react";
-import axios from 'axios';
-import PostCard from "../PostCard/PostCard";
+//import axios from 'axios';
 import { Switch, Route, useRouteMatch } from "react-router-dom";
+import postdata from '../../postdata';
+import PostCard from "../PostCard/PostCard";
 import FullPost from "../FullPost/FullPost";
 import './Blog.css';
 
 const Blog = () => {
+  let match = useRouteMatch();
+  const post = postdata;
+
+  /*
+  const Blog = () => {
   const [post, setPost] = useState([]);
   let match = useRouteMatch();
   useEffect(() => {
@@ -24,6 +30,7 @@ const removeHandler = (id) => {
   setPost(response.data);
 });
 };
+*/
   const PostList = post.map((p) => {
     return (
       <PostCard
@@ -32,7 +39,7 @@ const removeHandler = (id) => {
         desc={p.desc}
         img={p.img}
         link={`${match.url}/${p.id}`}
-        remove={() => removeHandler(p.id)}
+        //remove={() => removeHandler(p.id)}
       />
     );
   },[]);

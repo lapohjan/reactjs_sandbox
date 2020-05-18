@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./NewPost.css";
-import axios from 'axios'
+//import axios from 'axios'
 const NewPost = () => {
   const [newPost, setNewPost] = useState({
     title: '',
@@ -13,12 +13,12 @@ const NewPost = () => {
       [e.target.name]: e.target.value,
     })
   }
-  const addPostHandler = (e) => {
+  /*const addPostHandler = (e) => {
     e.preventDefault()
     axios.post("http://localhost:3001/posts", newPost).then((response) => {
       console.log(response.data)
     })
-  }
+  }*/
   return (
     <div className="new_message">
       <h1>Post a new Message on the Board!</h1>
@@ -39,7 +39,7 @@ const NewPost = () => {
             onChange={changeValueHandler}   placeholder="URL"/>
             <p className="random">Random puppy picture: <br /> https://source.unsplash.com/featured/?puppy</p>
         </div>
-        <button className="add_new" type="submit" onClick={addPostHandler}>Post your message</button>
+        <button className="add_new" type="submit" /*onClick={addPostHandler}*/>Post your message</button>
       </form>
     </div>
   );
