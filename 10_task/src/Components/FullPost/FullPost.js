@@ -56,4 +56,25 @@ const FullPost = () => {
     );*/
 };
 
+
+/*
+const Fullpost = () => {
+  let { postId } = useParams();
+  let post = postdata.find((p) => postdata.id === postId);
+  return (  
+    <div>
+      <div>
+        <img src={postdata.img} alt={postdata.title} />
+      </div>
+      <div>
+        <h2>{postdata.id}</h2>
+        <p>{postdata.textcontent}</p>
+        <Link to="/blog">Back to Blog Page</Link>
+      </div>
+    </div>
+  );
+};
+export default Fullpost;
+*/
+
 export default FullPost;
